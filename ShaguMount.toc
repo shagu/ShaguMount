@@ -1,0 +1,6 @@
+## Interface: 11200 
+## Title: |cff33ffccShagu|cffffffffMount
+## Author: Eric (Shagu) Mauser, 2016
+## Notes: Unmounts the Player whenever a action is used which cannot be done mounted.
+## Version: 1.0
+ShaguMount.lua
