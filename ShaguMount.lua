@@ -12,6 +12,11 @@ ShaguMount.Errors = { SPELL_FAILED_NOT_MOUNTED, ERR_ATTACK_MOUNTED, ERR_TAXIPLAY
   ERR_NO_ITEMS_WHILE_SHAPESHIFTED, ERR_TAXIPLAYERSHAPESHIFTED,ERR_MOUNT_SHAPESHIFTED }
 
 ShaguMount:SetScript("OnEvent", function()
+    if arg1 == SPELL_FAILED_NOT_STANDING then
+      SitOrStand()
+      return
+    end
+
     for id, errorstring in pairs(ShaguMount.Errors) do
       if arg1 == errorstring then
         for i=0,15,1 do
