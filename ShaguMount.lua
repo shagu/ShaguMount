@@ -4,7 +4,7 @@ ShaguMount:RegisterEvent("UI_ERROR_MESSAGE")
 ShaguMount.Buffs = { "spell_nature_swiftness", "_mount_", "_qirajicrystal_",
   "ability_racial_bearform", "ability_druid_catform", "ability_druid_travelform",
   "spell_nature_forceofnature", "ability_druid_aquaticform", "spell_nature_spiritwolf",
-  "ability_hunter_pet_turtle", "inv_misc_head_dragon_black", "ability_bullrush" }
+  "ability_hunter_pet_turtle", "inv_misc_head_dragon_black", "ability_bullrush", "inv_pet_speedy" }
 
 ShaguMount.Errors = { SPELL_FAILED_NOT_MOUNTED, ERR_ATTACK_MOUNTED, ERR_TAXIPLAYERALREADYMOUNTED,
   SPELL_FAILED_NOT_SHAPESHIFT, SPELL_FAILED_NO_ITEMS_WHILE_SHAPESHIFTED, SPELL_NOT_SHAPESHIFTED,
